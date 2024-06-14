@@ -27,8 +27,8 @@ const App = () => (
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
       </Routes>
-      <Home/>
       <Footer />
+      <Home/>
     </div>
   </Router>
 );

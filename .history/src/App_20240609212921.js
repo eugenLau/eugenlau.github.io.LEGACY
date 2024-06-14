@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
@@ -21,13 +21,12 @@ const App = () => (
     <div>
       <Header />
       <Navigation />
-      <Routes>
+      <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-      </Routes>
-      <Home/>
+      </Switch>
       <Footer />
     </div>
   </Router>

@@ -21,13 +21,12 @@ const App = () => (
     <div>
       <Header />
       <Navigation />
-      <Routes>
+      <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-      </Routes>
-      <Home/>
+      </Switch>
       <Footer />
     </div>
   </Router>
