@@ -43,7 +43,6 @@ header {
 }
 
 header h1 {
-  color: black;
   margin: 0;
   font-size: 2.5rem;
 }
@@ -83,8 +82,6 @@ nav ul li a:hover {
   align-items: center;
   color: #fff;
   text-align: center;
-  background: url('../public/images/DSC01069.jpg') no-repeat center center/cover;
-
 }
 
 .hero h2 {

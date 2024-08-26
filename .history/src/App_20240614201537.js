@@ -27,6 +27,7 @@ const App = () => (
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      
       <Footer />
     </div>
   </Router>

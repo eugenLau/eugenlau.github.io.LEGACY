@@ -12,6 +12,7 @@
   
   .c-header {
     background: linear-gradient(to right, black, white);  /* Gradient background from black to white */
+    color: #ffd700;  /* Golden text color */
     padding: 1rem;  /* Padding around the content */
     text-align: center;  /* Center the text */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
@@ -20,5 +21,4 @@
   .c-header h1 {
     margin: 0;
     font-size: 2.5rem;  /* Font size for the header text */
-    color: #ffd700;  /* Golden text color */
   }

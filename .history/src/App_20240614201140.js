@@ -22,11 +22,12 @@ const App = () => (
       <Header />
       <Navigation />
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" exact element={Home} />
+        <Route path="/about" element={About} />
+        <Route path="/portfolio" element={Portfolio} />
+        <Route path="/contact" element={Contact} />
       </Routes>
+      <Home/>
       <Footer />
     </div>
   </Router>
