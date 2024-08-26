@@ -15,6 +15,7 @@ import './styles/About.css';
 import './styles/Portfolio.css';
 import './styles/Contact.css';
 import './styles/Footer.css';
+import PhotoGrid from './components/PhotoGrid';
 
 const App = () => (
   <Router>
@@ -27,6 +28,7 @@ const App = () => (
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <PhotoGrid/>
       <Footer />
     </div>
   </Router>
