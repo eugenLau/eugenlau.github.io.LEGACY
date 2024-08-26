@@ -33,9 +33,7 @@ const App = () => (
     <div>
       <PhotoGrid/>
     </div>
-    <div>
       <Footer />
-    </div>
   </Router>
 );
 

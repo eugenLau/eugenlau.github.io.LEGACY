@@ -29,11 +29,7 @@ const App = () => (
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </div>
-    <div>
       <PhotoGrid/>
-    </div>
-    <div>
       <Footer />
     </div>
   </Router>
